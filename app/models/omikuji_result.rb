@@ -1,0 +1,2 @@
+class OmikujiResult < ApplicationRecord
+end

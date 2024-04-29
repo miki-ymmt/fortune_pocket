@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root 'static_pages#top'
   get 'top', to: 'static_pages#top'
   get 'omikuji', to: 'omikuji#show'
+  get 'omikuji/:id', to: 'omikuji#show_result', as: 'omikuji_result'
   # resource :omikuji, only: %i[show]
   resources :tasks
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
