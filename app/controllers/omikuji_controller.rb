@@ -25,6 +25,7 @@ class OmikujiController < ApplicationController
 
   def show_result  #指定されたIDのおみくじ結果をデータベースから取得
     @result = OmikujiResult.find(params[:id])
+    @result_id = @result.id
     @image = @result.image
   end
 end
