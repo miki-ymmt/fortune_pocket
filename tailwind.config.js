@@ -10,8 +10,9 @@ module.exports = {
   theme: {
     extend: {},
       fontFamily: {
-        body: ['Kiwi Maru', 'serif']
-    }
+        'body-jp': ['Kiwi Maru', 'serif'],
+        'body-en': ['Shrikhand', 'serif']
+      },
   },
   plugins: [require("daisyui")],
   daisyui: {
