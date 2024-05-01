@@ -17,9 +17,9 @@ class OmikujiController < ApplicationController
     ]
 
     outcome = outcomes.sample
-    result = OmikujiResult.create(luck: outcome[:luck], item: outcome[:item], image: outcome[:image])
+    #result = OmikujiResult.create(luck: outcome[:luck], item: outcome[:item], image: outcome[:image])結果の保存不要かも
     @omikuji = "#{outcome[:luck]}今日のラッキーアイテムは#{outcome[:item]}です！"
-    @result_id = result.id
+    #@result_id = result.id
     @image = outcome[:image]
   end
 
