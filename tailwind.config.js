@@ -7,6 +7,12 @@ module.exports = {
     './app/assets/stylesheets/**/*.css',
     './app/javascript/**/*.js'
   ],
+  theme: {
+    extend: {},
+      fontFamily: {
+        body: ['Kiwi Maru', 'serif']
+    }
+  },
   plugins: [require("daisyui")],
   daisyui: {
     themes: ["light", "dark", "cupcake"],

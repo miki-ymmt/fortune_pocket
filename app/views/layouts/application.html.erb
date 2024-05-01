@@ -2,18 +2,19 @@
 <html data-theme="cupcake" lang="ja">
   <head>
     <title>fortune pocket</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%# javascript_include_tag "application", "data-turbo-track": "reload", type: "module" %>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
 
   </head>
 
-  <body class="bg-amber-100 bg-opacity-50">
+  <body class="font-body bg-amber-100 bg-opacity-50">
     <%= render 'shared/header' %>
     <%= yield %>
     <%= render 'shared/footer' %>
