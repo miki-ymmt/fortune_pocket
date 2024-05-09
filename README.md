@@ -1,5 +1,7 @@
 # README
 
+my reviewファイルにミニアプリ実装記録、所感を記載しています。
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
