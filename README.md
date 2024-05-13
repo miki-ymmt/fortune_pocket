@@ -6,9 +6,8 @@
 
 ## サービス概要
 
-### サービス名
+### サービス名 Fortune Pocket
 
-Fortune Pocket
 サービスURL： https://fortune-pocket.onrender.com/
 
 Fortune Pocketはボタンを押すだけでその日の運勢とラッキーアイテムが分かる占いアプリです。
